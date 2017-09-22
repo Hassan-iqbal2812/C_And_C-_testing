@@ -102,20 +102,21 @@ int MakeArrayConsecutive2(const int ArrayWithNumber[], int length){
     
     for (returningAmount = StoreSmall; returningAmount < StoreBig ; returningAmount++) {
         
-        for (int index = 0; index < length -1; index++) {
+        for (int index = 0; index < length ; index++) {
             
             
-            if (returningAmount == ArrayWithNumber[index]) {
+            if (returningAmount != ArrayWithNumber[index]) {
                 
-                MissingNumbers++;
                 
-                break;
+                continue;
                 
                 
             }
             
+            
         }
         
+        MissingNumbers++;
     }
 
     printf("There are %d number missing\n", MissingNumbers );

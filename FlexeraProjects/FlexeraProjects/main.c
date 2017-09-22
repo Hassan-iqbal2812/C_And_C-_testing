@@ -134,7 +134,7 @@ int main(int argc, const char * argv[]) {
         //the smallest number in the array
     
         //Below is the test values in which we are using.
-        int UserInput [] = {6,2,3,8};
+        int UserInput [] = {5,4,6};
     
         int amount = sizeof(UserInput)/sizeof(int);
     

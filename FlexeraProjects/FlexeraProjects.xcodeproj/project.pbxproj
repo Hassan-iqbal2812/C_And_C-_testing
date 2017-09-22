@@ -26,6 +26,7 @@
 		5C0587421F66C409009B5164 /* FlexeraProjects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlexeraProjects; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0587451F66C409009B5164 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5C05874C1F66DFB9009B5164 /* Hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		5C3416BA1F74FD4900459FDD /* CodeFights_EdgeOfTheOcean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeFights_EdgeOfTheOcean.h; sourceTree = "<group>"; };
 		5C3F09941F6928D100AA23FF /* PointerTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerTesting.h; sourceTree = "<group>"; };
 		5C3F09951F692E0A00AA23FF /* ArrayTypeDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayTypeDef.h; sourceTree = "<group>"; };
 		5CEB133B1F6FB60400FADF82 /* TypeDefz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeDefz.h; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				5C3F09941F6928D100AA23FF /* PointerTesting.h */,
 				5C3F09951F692E0A00AA23FF /* ArrayTypeDef.h */,
 				5CEB133B1F6FB60400FADF82 /* TypeDefz.h */,
+				5C3416BA1F74FD4900459FDD /* CodeFights_EdgeOfTheOcean.h */,
 			);
 			path = FlexeraProjects;
 			sourceTree = "<group>";

@@ -14,6 +14,7 @@
 #include "PointerTesting.h"
 #include "ArrayTypeDef.h"
 #include "TypeDefz.h"
+#include "CodeFights_EdgeOfTheOcean.h"
 
 int main(int argc, const char * argv[]) {
     
@@ -74,56 +75,98 @@ int main(int argc, const char * argv[]) {
 //
 //    
 //    
-        printf("\n-------------Using Pointers-------------\n");
+//        printf("\n-------------Using Pointers-------------\n");
+//    
+//        printf("\n-------------Using Pointers2-------------\n");
+//    
+//        
+//        node_t * head = NULL;
+//    
+//        head = malloc(sizeof(node_t));
+//    
+//        if (head == NULL) {
+//        
+//            return 1;
+//        
+//        }
+//    
+//        head->val = 1;
+//    
+//        head->Next = malloc(sizeof(node_t));
+//    
+//        head->Next->val = 2;
+//    
+//        head->Next->Next = malloc(sizeof(node_t));
+//    
+//        head->Next->Next->val = 3;
+//    
+//        printf("\n-----adding a number to the bottom-------\n");
+//    
+//        push(head, 10);
+//    
+//        printf("\n-----adding a number to the top----------\n");
+//    
+//        pushNumToTop(&head, 4);
+//    
+//        printf("\n-----Removing the top number-------------\n");
+//    
+//        TakeFromTheTop(&head);
+//    
+//        printf("\n-----Removing the last number------------\n");
+//    
+//        RemovingTheLastItem(&head);
+//    
+//        printf("\n-----Removing a specific number----------\n");
+//    
+//        RemovingASpecificItem(&head,2);
+//    
+//        printf("\n-------------Printing the list-----------\n");
+//    
+//        print_list(head);
+//    
+//        printf("-------------Using Pointers2--------------\n");
+
     
-        printf("\n-------------Using Pointers2-------------\n");
+        printf("-------------SolvingCodeFightAlgorithm--------------\n");
+        //1. The first thing in which we need to do is to be able to pass
+        //a arrays through to the function.
+        //2. After we need to get the biggest number in the array and also
+        //the smallest number in the array
     
-        
-        node_t * head = NULL;
+        //Below is the test values in which we are using.
+        int UserInput [] = {6,2,3,8};
     
-        head = malloc(sizeof(node_t));
+        int amount = sizeof(UserInput)/sizeof(int);
     
-        if (head == NULL) {
-        
-            return 1;
-        
-        }
+        printf("The amount of elements in %d\n", amount);
     
-        head->val = 1;
+        MakeArrayConsecutive2(UserInput,amount);
     
-        head->Next = malloc(sizeof(node_t));
     
-        head->Next->val = 2;
+        printf("-------------SolvingCodeFightAlgorithm--------------\n");
     
-        head->Next->Next = malloc(sizeof(node_t));
     
-        head->Next->Next->val = 3;
     
-        printf("\n-----adding a number to the bottom-------\n");
     
-        push(head, 10);
     
-        printf("\n-----adding a number to the top----------\n");
     
-        pushNumToTop(&head, 4);
     
-        printf("\n-----Removing the top number-------------\n");
     
-        TakeFromTheTop(&head);
     
-        printf("\n-----Removing the last number------------\n");
     
-        RemovingTheLastItem(&head);
     
-        printf("\n-----Removing a specific number----------\n");
     
-        RemovingASpecificItem(&head,2);
     
-        printf("\n-------------Printing the list-----------\n");
     
-        print_list(head);
     
-        printf("-------------Using Pointers2--------------\n");
+    
+    
+    
+    
+    
+    
+    
+    
     
     return 0;
 }

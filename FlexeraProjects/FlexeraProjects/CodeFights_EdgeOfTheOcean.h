@@ -27,8 +27,46 @@ int MakeArrayConsecutive2(const int ArrayWithNumber[], int length){
     int StoreBig = 0;
     
     // while loop to get the highest value in the array.
-    while (big < length-1 || small < length-1)
-    {
+        while (big < length-1 || small < length-1)
+        {
+            
+                if (ArrayWithNumber[big] < ArrayWithNumber[small])
+                {
+                    
+                    temp = big;
+                    
+                    big = small;
+                    
+                    small = temp;
+                }
+            if (ArrayWithNumber[big] > ArrayWithNumber[small]) {
+                if (small == length -1 ||big == length -1 )
+                {
+                    break;
+                }
+                else
+                {
+                    
+                    small++;
+                    
+                }
+            }
+            
+            
+        }
+    
+        StoreBig = ArrayWithNumber[big];
+    
+        printf("The Biggest Number is %d \n", StoreBig);
+    
+    
+        big= 0;
+    
+        small=1;
+    
+    
+        while (big < length-1 || small < length-1)
+        {
             
             if (ArrayWithNumber[big] < ArrayWithNumber[small])
             {
@@ -45,79 +83,45 @@ int MakeArrayConsecutive2(const int ArrayWithNumber[], int length){
                 {
                     break;
                 }
-                    else
-                    {
+                else
+                {
                     
-                    small++;
+                    big++;
                     
-                    }
+                }
             }
-                
-    }
-    
-    StoreBig = ArrayWithNumber[big];
-    
-    printf("The Biggest Number is %d \n", StoreBig);
-    
-    
-    big= 0;
-    
-    small=1;
-    
-    
-    while (big < length-1 || small < length-1)
-    {
-        
-        if (ArrayWithNumber[big] < ArrayWithNumber[small])
-        {
             
-            temp = big;
-            
-            big = small;
-            
-            small = temp;
         }
-        else
-        {
-            if (small == length -1 ||big == length -1 )
-            {
-                break;
-            }
-            else
-            {
-                
-                big++;
-                
-            }
-        }
-        
-    }
     
-    StoreSmall = ArrayWithNumber[small];
-    printf("The Smallest Number is %d \n", StoreSmall);
+        StoreSmall = ArrayWithNumber[small];
+        printf("The Smallest Number is %d \n", StoreSmall);
     
     int MissingNumbers = 0;
     
+    int addingUp = 0;
     
-    
-    for (returningAmount = StoreSmall; returningAmount < StoreBig ; returningAmount++) {
+    for (StoreSmall;StoreSmall < StoreBig ; StoreSmall++) {
         
-        for (int index = 0; index < length ; index++) {
+        for ( int index = 0; index < length; index++) {
             
-            
-            if (returningAmount != ArrayWithNumber[index]) {
+            if (StoreSmall==ArrayWithNumber[index]) {
                 
-                
-                continue;
-                
+                break;
                 
             }
+            else{
+                
+                addingUp++;
             
-            
+            }
+            if (addingUp==length) {
+                
+                MissingNumbers++;
+            }
         }
-        
-        MissingNumbers++;
+        addingUp = 0;
     }
+    
 
     printf("There are %d number missing\n", MissingNumbers );
     

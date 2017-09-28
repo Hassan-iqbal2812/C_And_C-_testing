@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <stdarg.h>
 #include "Hello.h"
 #include "apples.h"
 #include "PointerTesting.h"
@@ -127,24 +128,24 @@ int main(int argc, const char * argv[]) {
 //        printf("-------------Using Pointers2--------------\n");
 
     
-        printf("-------------SolvingCodeFightAlgorithm--------------\n");
-        //1. The first thing in which we need to do is to be able to pass
-        //a arrays through to the function.
-        //2. After we need to get the biggest number in the array and also
-        //the smallest number in the array
-    
-        //Below is the test values in which we are using.
-        int UserInput [] = {5,4,6};
-    
-        int amount = sizeof(UserInput)/sizeof(int);
-    
-        printf("The amount of elements in %d\n", amount);
-    
-        MakeArrayConsecutive2(UserInput,amount);
-    
-    
-        printf("-------------SolvingCodeFightAlgorithm--------------\n");
-    
+//        printf("-------------SolvingCodeFightAlgorithm--------------\n");
+//        //1. The first thing in which we need to do is to be able to pass
+//        //a arrays through to the function.
+//        //2. After we need to get the biggest number in the array and also
+//        //the smallest number in the array
+//
+//        //Below is the test values in which we are using.
+//        int UserInput [] = {6,3};
+//
+//        int amount = sizeof(UserInput)/sizeof(int);
+//
+//        printf("The amount of elements in %d\n", amount);
+//
+//        MakeArrayConsecutive2(UserInput,amount);
+//
+//
+//        printf("-------------SolvingCodeFightAlgorithm--------------\n");
+//
     
     
     

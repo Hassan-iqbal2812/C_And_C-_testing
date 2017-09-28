@@ -49,6 +49,7 @@ int MakeArrayConsecutive2(const int ArrayWithNumber[], int length){
                     
                     small++;
                     
+                    
                 }
             }
             

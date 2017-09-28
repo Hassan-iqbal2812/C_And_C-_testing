@@ -30,6 +30,8 @@
 		5C3F09941F6928D100AA23FF /* PointerTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointerTesting.h; sourceTree = "<group>"; };
 		5C3F09951F692E0A00AA23FF /* ArrayTypeDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayTypeDef.h; sourceTree = "<group>"; };
 		5CEB133B1F6FB60400FADF82 /* TypeDefz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeDefz.h; sourceTree = "<group>"; };
+		5CEFEFF61F7CE73B00F7877F /* VariableArgments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariableArgments.h; sourceTree = "<group>"; };
+		5CEFEFF71F7CF96700F7877F /* DynamicArrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicArrays.h; sourceTree = "<group>"; };
 		5CF8E59E1F67D85400E716A8 /* apples.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = apples.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,8 @@
 				5C3F09951F692E0A00AA23FF /* ArrayTypeDef.h */,
 				5CEB133B1F6FB60400FADF82 /* TypeDefz.h */,
 				5C3416BA1F74FD4900459FDD /* CodeFights_EdgeOfTheOcean.h */,
+				5CEFEFF61F7CE73B00F7877F /* VariableArgments.h */,
+				5CEFEFF71F7CF96700F7877F /* DynamicArrays.h */,
 			);
 			path = FlexeraProjects;
 			sourceTree = "<group>";
@@ -100,7 +104,7 @@
 		5C05873A1F66C409009B5164 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Hassan Iqbal";
 				TargetAttributes = {
 					5C0587411F66C409009B5164 = {
@@ -149,7 +153,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -157,7 +163,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -197,7 +207,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -205,7 +217,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

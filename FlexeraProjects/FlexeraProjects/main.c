@@ -16,8 +16,14 @@
 #include "ArrayTypeDef.h"
 #include "TypeDefz.h"
 #include "CodeFights_EdgeOfTheOcean.h"
+#include "VariableArgments.h"
+#include "DynamicArrays.h"
+
+
 
 int main(int argc, const char * argv[]) {
+    
+
     
 //    int numbers = 0;
 //    
@@ -146,28 +152,23 @@ int main(int argc, const char * argv[]) {
 //
 //        printf("-------------SolvingCodeFightAlgorithm--------------\n");
 //
+          printf("---------------Variable arguments----------------\n");
     
     
+          printf("----------------Calling average------------------\n");
+    
+            int LenghtOfArray ;
+    
+            scanf("%d",&LenghtOfArray);
+    
+            printf("You Typed %d\n", LenghtOfArray);
+    
+            CreatingLengthOfArray(LenghtOfArray);
+            //HighestNumber(4,3,2,1,0);
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        printf("---------------Variable arguments----------------\n");
+ 
     
     return 0;
 }
